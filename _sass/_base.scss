@@ -192,6 +192,9 @@ header {
     }
     @media (min-width: 768px) {
         min-height: 100%;
+        img {
+            display: none;
+        }
         .header-content {
             position: absolute;
             top: 50%;
@@ -208,9 +211,6 @@ header {
                     max-width: 80%;
                     margin-left: auto;
                     margin-right: auto;
-                }
-                img {
-                    width: 100%;
                 }
             }
         }
